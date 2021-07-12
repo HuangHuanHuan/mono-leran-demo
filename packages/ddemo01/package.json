@@ -1,0 +1,33 @@
+{
+  "name": "ddemo01",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "ziyu <923950271@qq.com>",
+  "homepage": "https://github.com/HuangHuanHuan/mono-leran-demo#readme",
+  "license": "ISC",
+  "main": "lib/ddemo01.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HuangHuanHuan/mono-leran-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/HuangHuanHuan/mono-leran-demo/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1"
+  }
+}
