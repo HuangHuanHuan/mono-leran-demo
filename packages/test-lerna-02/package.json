@@ -1,5 +1,5 @@
 {
-  "name": "ddemo02",
+  "name": "test-lerna-02",
   "version": "0.0.3",
   "description": "> TODO: description",
   "author": "ziyu <923950271@qq.com>",
@@ -27,7 +27,8 @@
     "url": "https://github.com/HuangHuanHuan/mono-leran-demo/issues"
   },
   "dependencies": {
-    "ddemo01": "^0.0.3",
+    "test-lerna-01": "^0.0.3",
     "lodash": "^4.17.21"
-  }
+  },
+  "gitHead": "09f52181be7fee42aa8efbceef48e47c5c172368"
 }

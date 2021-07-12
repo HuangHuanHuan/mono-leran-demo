@@ -1,5 +1,5 @@
 {
-  "name": "ddemo01",
+  "name": "test-lerna-01",
   "version": "0.0.3",
   "description": "> TODO: description",
   "author": "ziyu <923950271@qq.com>",
@@ -29,5 +29,6 @@
   "dependencies": {
     "lodash": "^4.17.21",
     "moment": "^2.29.1"
-  }
+  },
+  "gitHead": "09f52181be7fee42aa8efbceef48e47c5c172368"
 }
