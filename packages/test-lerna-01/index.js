@@ -1,3 +1,11 @@
-console.log('hello mono');
-console.log('hello updatedlerna publish');
-console.log('hello');
+module.exports = function(options) {
+    const options = options || {};
+    const sessionName = options["sessionName"] || "user";
+    const redirect = options["redirect"] || "/login";
+    return function(req,res,next) {
+        if(!req.session[sessionName]) {
+            return res.redirect(redirect);
+        }
+        next();
+    }
+}
